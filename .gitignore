@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignorar arquivos de dados (Segurança de DP/RH)
+*.xlsx
+*.xls
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Sistema
+.DS_Store
+Thumbs.db
